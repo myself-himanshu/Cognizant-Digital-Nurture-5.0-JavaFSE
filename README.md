@@ -20,14 +20,22 @@ This repository serves as a complete collection of all practical exercises compl
 
 ## 📅 Week 1
 
+### Algorithms and Data Structures
+
+Exercises include:
+
+- Ecommerce Platform Search
+- Financial Forecasting
+
 ### Design Patterns
+
 - Singleton Pattern
 - Factory Method Pattern
 
 ### PL/SQL Exercises
+
 - Control Structures
 - Stored Procedures
-
 ---
 
 ## 📅 Week 2
@@ -103,13 +111,15 @@ Topics Covered:
 ```text
 Cognizant-Digital-Nurture-5.0-JavaFSE
 │
-├── Week 1
-│   ├── DesignPatterns_Exercise_1_Singleton
-│   ├── DesignPatterns_Exercise_2_FactoryMethod
-│   └── PLSQL_Exercises
-│       ├── 1. Control Structures
-│       └── 2. Stored Procedures
-│
+Week 1
+├── Algorithms and Data Structures
+│   ├── Ecommerce Platform Search
+│   └── Financial Forecasting
+├── DesignPatterns_Exercise_1_Singleton
+├── DesignPatterns_Exercise_2_FactoryMethod
+└── PLSQL_Exercises
+    ├── 1. Control Structures
+    └── 2. Stored Procedures
 ├── Week 2
 │   ├── 1. Spring Core and Maven
 │   │   ├── 01_Library_Management
