@@ -167,7 +167,6 @@ Cognizant-Digital-Nurture-5.0-JavaFSE
 │   ├── 4. ReactJS-HOL/ (Blog Post App)
 │   ├── 9.ReactJS-HOL/ (Cricket App)
 │   └── 10.ReactJS-HOL/ (Office Space Rental App)
-│
 └── Week 7/
     ├── 11_Handson_11/ (Event Examples App)
     ├── 12_Handson_12/ (Ticket Booking App)
