@@ -165,6 +165,7 @@ Cognizant-Digital-Nurture-5.0-JavaFSE
 │   ├── 2. ReactJS-HOL/ (Student App)
 │   ├── 3. ReactJS-HOL/ (Score Calculator App)
 │   ├── 4. ReactJS-HOL/ (Blog Post App)
+│   ├── 5. ReactJS-HOL/ (Cohort Tracker)
 │   ├── 9.ReactJS-HOL/ (Cricket App)
 │   └── 10.ReactJS-HOL/ (Office Space Rental App)
 └── Week 7/
