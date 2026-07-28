@@ -10,99 +10,108 @@ This repository contains all the hands-on exercises, assignments, and projects c
 
 # Overview
 
-The Cognizant Digital Nurture 5.0 Java FSE program provides comprehensive training in Java Full Stack Development, covering Core Java, Design Patterns, Database Programming, Spring Framework, Testing Frameworks, ReactJS, Logging, and Enterprise Application Development.
+The Cognizant Digital Nurture 5.0 Java FSE program provides comprehensive training in Java Full Stack Development, covering Core Java, Design Patterns, Database Programming, Spring Framework, Spring REST, Microservices, Testing Frameworks, ReactJS, Logging, and Enterprise Application Development.
 
-This repository serves as a complete collection of all practical exercises completed throughout the training.
-
----
-
-# Course Structure
-
-## 📅 Week 1
-
-### Algorithms and Data Structures
-
-Exercises include:
-
-- Ecommerce Platform Search
-- Financial Forecasting
-
-### Design Patterns
-
-- Singleton Pattern
-- Factory Method Pattern
-
-### PL/SQL Exercises
-
-- Control Structures
-- Stored Procedures
----
-
-## 📅 Week 2
-
-### Spring Core & Maven
-
-Exercises include:
-
-- Library Management
-- Dependency Injection
-- Maven Configuration
-- Spring Bean Configuration
-
-### JUnit Basic Testing
-
-Topics Covered:
-
-- JUnit Setup
-- Assertions
-- AAA (Arrange-Act-Assert) Pattern
-- Unit Testing Fundamentals
-
-### Mockito Exercises
-
-Topics Covered:
-
-- Mocking and Stubbing
-- Verifying Method Interactions
+This repository serves as a complete collection of all practical exercises and hands-on modules completed throughout the 7-week training program.
 
 ---
 
-## 📅 Week 3
+# Course Structure & Weekly Progress
 
-### ReactJS Hands-on
+## 📅 Week 1: Core Java, Design Patterns & PL/SQL
 
-- ReactJS HOL Project
-
-### Spring Data JPA
-
-Topics Covered:
-
-- Spring Data JPA Hands-on
-- CRUD Operations
-- Repository Pattern
-
-### SLF4J Logging
-
-Topics Covered:
-
-- Logging Configuration
-- Logging Best Practices
+* **Algorithms & Data Structures**
+  * Ecommerce Platform Search Implementation
+  * Financial Forecasting Algorithm
+* **Design Patterns**
+  * Singleton Pattern (`Logger`)
+  * Factory Method Pattern (`DocumentFactory`, `PdfFactory`, `WordFactory`, `ExcelFactory`)
+* **PL/SQL Exercises**
+  * **Control Structures:** Apply Discount, VIP Status updates, Send Reminders
+  * **Stored Procedures:** Process Monthly Interest, Update Employee Bonus, Transfer Funds
 
 ---
 
-# Technologies Covered
+## 📅 Week 2: Spring Core, Maven, Unit Testing & Mockito
 
-- Java
-- Maven
-- Spring Core
-- Spring Data JPA
-- ReactJS
-- JUnit 5
-- Mockito
-- PL/SQL
-- SLF4J
-- Design Patterns
-- Object-Oriented Programming (OOP)
+* **Spring Core & Maven**
+  * Library Management Application Configuration
+  * Dependency Injection (Setter & Constructor Injection)
+  * Maven Project Configuration & Structure
+* **JUnit Basic Testing**
+  * JUnit Setup & Basic Example
+  * Custom Assertions
+  * AAA (Arrange-Act-Assert) Pattern Applications
+* **Mockito Exercises**
+  * Mocking and Stubbing External APIs (`MyServiceTest`)
+  * Verifying Method Interactions
+
+---
+
+## 📅 Week 3: ReactJS Basics, Spring Data JPA & SLF4J
+
+* **ReactJS Fundamentals**
+  * ReactJS Hands-on Lab Application Setup & Component Rendering
+* **Spring Data JPA**
+  * `orm-learn` Hands-on Application
+  * Country Repository, Service, and Controller Implementations
+  * Spring Data JPA Repository Pattern & Entity Mapping
+* **SLF4J Logging**
+  * Logging Configuration and Log Levels Execution
+
+---
+
+## 📅 Week 4: Spring REST & Security (JWT)
+
+* **Spring REST Hands-on**
+  * Creating Maven-based Spring Web Projects
+  * Spring Configuration XML Beans (`SimpleDateFormat`, Country Beans, Scope Management)
+  * RESTful Web Service Setup (`HelloController`)
+  * Country REST Service (Get All Countries, Search by Country Code via `CountryService`)
+* **Spring Security & JWT**
+  * JWT (JSON Web Token) Handson Implementation
+  * `SecurityConfig` and Authentication Controller Integration
+
+---
+
+## 📅 Week 5: Microservices & Service Discovery
+
+* **Microservices Development**
+  * Accounts Microservice (`AccountController`)
+  * Loans Microservice (`LoansController`)
+* **Service Discovery**
+  * Netflix Eureka Discovery Server Setup (`EurekaDiscoveryServerApplication`)
+  * Registering Accounts & Loans Microservices with Eureka Server
+
+---
+
+## 📅 Week 6: ReactJS Components, Routing & Props
+
+* **React Components & UI**
+  * Student Management Application (`Home`, `About`, `Contact` Components)
+  * Score Calculator App (`CalculateScore` with custom CSS styling)
+  * Blog Post & Cohort Details App (CSS Modules, Rendering Lists)
+  * Cricket App (`ListofPlayers`, `IndianPlayers` Components)
+  * Office Space Rental App Setup & UI Rendering
+
+---
+
+## 📅 Week 7: Advanced ReactJS (Events, Forms & Conditional Rendering)
+
+* **Hands-on 11:** Event Handling Examples (`ClickButton`, `Counter`, `CurrencyConvertor`, `Welcome`)
+* **Hands-on 12:** Ticket Booking App (Conditional Rendering, User/Guest Views, Login/Logout States)
+* **Hands-on 13:** Blogger App (`BlogDetails`, `BookDetails`, `CourseDetails`, Dynamic Data Binding)
+
+---
+
+# Tech Stack & Frameworks
+
+* **Languages:** Java, JavaScript (ES6+), SQL, PL/SQL, HTML5, CSS3
+* **Backend:** Spring Framework, Spring Boot, Spring REST, Spring Data JPA, Microservices Architecture
+* **Service Discovery & Security:** Netflix Eureka, Spring Security, JWT
+* **Frontend:** React.js, JSX, CSS Modules
+* **Testing:** JUnit 5, Mockito
+* **Build & Tools:** Maven, SLF4J, Git, Visual Studio Code, IntelliJ IDEA / Eclipse
 
 ---
 
@@ -111,43 +120,58 @@ Topics Covered:
 ```text
 Cognizant-Digital-Nurture-5.0-JavaFSE
 │
-Week 1
-├── Algorithms and Data Structures
-│   ├── Ecommerce Platform Search
-│   └── Financial Forecasting
-├── DesignPatterns_Exercise_1_Singleton
-├── DesignPatterns_Exercise_2_FactoryMethod
-└── PLSQL_Exercises
-    ├── 1. Control Structures
-    └── 2. Stored Procedures
-├── Week 2
-│   ├── 1. Spring Core and Maven
-│   │   ├── 01_Library_Management
-│   │   ├── 02_Dependency_Injection
-│   │   ├── 04_Config_Maven_Project
-│   │   └── Outputs
-│   │
-│   ├── JUnit_Basic Testing Exercises
-│   │   ├── 01_JUnit_Setup_Example
-│   │   ├── 03_AAA_Pattern
-│   │   ├── 03_JUnit_Assertions
-│   │   ├── 04_AAA_Pattern
-│   │   └── Outputs
-│   │
-│   └── Mockito exercises
-│       ├── 01_Mocking_And_Stubbing
-│       ├── 02_Verifying_Interactions
-│       └── Outputs
+├── Week 1/
+│   ├── Algorithms and Data Structures/
+│   │   ├── Ecommerce Platform Search/
+│   │   └── Financial Forrecasting/
+│   ├── DesignPatterns_Exercise_1_Singleton/
+│   ├── DesignPatterns_Exercise_2_FactoryMethod/
+│   └── PLSQL_Exercises/
+│       ├── 1. Control Structures/
+│       └── 2. Stored Procedures/
 │
-└── Week 3
-    ├── 1. ReactJS-HOL_HimanshuYadav
-    ├── 2. Spring Data JPA
-    │   ├── 1. Handson 1 Spring Data JPA
-    │   └── Outputs
-    │
-    └── SL4J Logging exercises
-        ├── 01_Logging
-        └── Outputs
+├── Week 2/
+│   ├── 1. Spring Core and Maven/
+│   │   ├── 01_Library_Management/
+│   │   ├── 02_Dependency_Injection/
+│   │   └── 04_ Config_Maven_Project/
+│   ├── JUnit_Basic Testing Exercises/
+│   │   ├── 01_JUnit_Setup_Example/
+│   │   ├── 03_JUnit_Assertions/
+│   │   └── 04_AAA_Pattern/
+│   └── Mockito exercises/
+│       ├── 01_Mocking_And_Stubbing/
+│       └── 02_Verifying_Interactions/
+│
+├── Week 3/
+│   ├── 1. ReactJS-HOL_HimanshuYadav/
+│   ├── 2. Spring Data JPA/
+│   └── SL4J Logging exercises/
+│
+├── Week 4/
+│   ├── 01_Spring_Rest_Handson/
+│   ├── 02_Spring_Rest_Handson/
+│   │   ├── 1. Hello World RESTful Web Service/
+│   │   ├── 2. Country Web Service/
+│   │   ├── 3. Get all countries/
+│   │   └── 4. Get country based on country code/
+│   └── 05_JWT_Handson/
+│
+├── Week 5/
+│   ├── 1. Creating Microservices for account and loan/
+│   └── 2. Eureka Discovery Server/
+│
+├── Week 6/
+│   ├── 2. ReactJS-HOL/ (Student App)
+│   ├── 3. ReactJS-HOL/ (Score Calculator App)
+│   ├── 4. ReactJS-HOL/ (Blog Post App)
+│   ├── 9.ReactJS-HOL/ (Cricket App)
+│   └── 10.ReactJS-HOL/ (Office Space Rental App)
+│
+└── Week 7/
+    ├── 11_Handson_11/ (Event Examples App)
+    ├── 12_Handson_12/ (Ticket Booking App)
+    └── 13_Handson_13/ (Blogger App)
 ```
 
 ---
