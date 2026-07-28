@@ -93,6 +93,7 @@ This repository serves as a complete collection of all practical exercises and h
   * Blog Post & Cohort Details App (CSS Modules, Rendering Lists)
   * Cricket App (`ListofPlayers`, `IndianPlayers` Components)
   * Office Space Rental App Setup & UI Rendering
+  * Cohort Tracker
 
 ---
 
